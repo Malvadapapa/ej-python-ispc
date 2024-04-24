@@ -18,7 +18,6 @@ def calcular_primo(number):
     while contador * contador <= number:
         if number % contador:
             contador = contador + 1
-
         else:
             return False
     else:

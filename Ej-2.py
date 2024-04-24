@@ -12,7 +12,7 @@ while True:
     try:
         hora_actual = int(input('Ingrese la hora actual en formato de 24hs: '))
         cantidad_horas = int(input('Ingrese cantidad de horas: '))
-        print(f'\nDentro de {cantidad_horas}horas van a ser las {calcular_hora(hora_actual, cantidad_horas)}\n')
+        print(f'\nDentro de {cantidad_horas} horas van a ser las {calcular_hora(hora_actual, cantidad_horas)}\n')
     except ValueError:
         print('Solo puede ingresar números!')
 

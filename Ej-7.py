@@ -43,4 +43,3 @@ while True:
         if continuar.lower() == 'no':
             print('Muchas gracias por utilizar el programa\n\n')
             break
-

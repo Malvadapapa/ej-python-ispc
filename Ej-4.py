@@ -29,6 +29,7 @@ while True:
             break
 
     print(f'La cantidad de horas de viaje es: {calcular_horas_viaje(minutos_totales)}')
+
     continuar = input('Escriba Si para calcular nuevamente o No para salir:\n ')
     if continuar.lower() == 'no':
         print('Muchas gracias por utilizar el programa\n\n')
