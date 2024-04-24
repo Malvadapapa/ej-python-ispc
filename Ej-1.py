@@ -8,22 +8,19 @@ def num_inverter(number):
     return int(auxiliar)
 
 
-loop_control = True
-
-while loop_control:
+while True:
     try:
         numero_a_convertir = int(input('Ingrese un numero entero de tres digitos:  '))
         print(num_inverter(numero_a_convertir))
     except ValueError:
         print('El dato ingresado no es un numero')
-    while True:
-        exit_while = input('\nEscriba si para convertir otro numero o no para salir: ')
-        if exit_while.lower() == 'no':
-            print('Gracias por utilizar el programa')
-            loop_control = False
+
+    finally:
+        continuar = input('\nEscriba Si para calcular nuevamente o No para salir:\n ')
+        if continuar.lower() == 'no':
+            print('Muchas gracias por utilizar el programa\n\n')
             break
-        else:
-            break
+
 
 
 
